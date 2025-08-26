@@ -8,7 +8,7 @@
 #include <Arduino.h>
 
 // Required for SSL
-#include "openssl/ssl.h"
+#include "esp_tls.h"
 #undef read
 
 // Internal includes
